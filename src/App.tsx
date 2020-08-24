@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={IndexPage} />
-      <Route path="/inifity-list" exact component={InifinityList} />
+      <Route path="/infinity-list" exact component={InifinityList} />
     </BrowserRouter>
   )
 }
