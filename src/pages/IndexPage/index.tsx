@@ -1,11 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import routers from '../../config/router.config'
 
 interface IndexProps {}
+
 const Index: React.FC<IndexProps> = props => {
   return (
     <div>
-      <Link to="/infinity-list">虚拟列表</Link>
+      {routers.map(item => {
+        const { id, name, path } = item
+        return (
+          <div key={id}>
+            <Link to={path}>{name}</Link>
+          </div>
+        )
+      })}
     </div>
   )
 }

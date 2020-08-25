@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const size = 10000
+export const size = 100
 export const listDefault = Array.from({ length: size }, (item, index) => ({
   id: index,
   value: index,
