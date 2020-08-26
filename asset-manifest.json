@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-training/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/web-training/static/js/main.50aba747.chunk.js",
+    "main.js.map": "/web-training/static/js/main.50aba747.chunk.js.map",
+    "runtime-main.js": "/web-training/static/js/runtime-main.b7cdb60c.js",
+    "runtime-main.js.map": "/web-training/static/js/runtime-main.b7cdb60c.js.map",
+    "static/js/2.81de788f.chunk.js": "/web-training/static/js/2.81de788f.chunk.js",
+    "static/js/2.81de788f.chunk.js.map": "/web-training/static/js/2.81de788f.chunk.js.map",
+    "index.html": "/web-training/index.html",
+    "precache-manifest.b9cae2b338144d994d50c1d776c20cc2.js": "/web-training/precache-manifest.b9cae2b338144d994d50c1d776c20cc2.js",
+    "service-worker.js": "/web-training/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/web-training/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.81de788f.chunk.js.LICENSE.txt": "/web-training/static/js/2.81de788f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7cdb60c.js",
+    "static/js/2.81de788f.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.50aba747.chunk.js"
+  ]
+}
