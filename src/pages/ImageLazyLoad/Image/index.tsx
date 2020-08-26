@@ -11,12 +11,11 @@ const Index: React.FC<IndexProps> = props => {
 
   useEffect(() => {
     const intersectionObserver = new IntersectionObserver((entries, observer) => {
-      if (entries[0].isIntersecting) {
-        if (imgRef.current) {
-          observer.unobserve(imgRef.current)
-          // console.log(imgRef.current)
-          imgRef.current.setAttribute('src', src)
-        }
+      const firstEntry = entries[0]
+      const { isIntersecting, target } = firstEntry
+      if (isIntersecting) {
+        observer.unobserve(target)
+        target.setAttribute('src', src)
       }
     })
     if (imgRef.current) {
